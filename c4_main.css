@@ -33,7 +33,7 @@ main h2 {
 main h3 {
 	font-size: 105%;
 }
-a {
+a:hover { /* italicizes links when cursor hovers over it*/
 	text-decoration: italic; 
 }
 footer p {
