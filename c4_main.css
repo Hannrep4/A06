@@ -8,12 +8,12 @@ body {
 header img {
 	float: left;
 }
-h2 {
+body main h2 { /* "h2" is in "main," which is in "body" */
 	font-size: 170%;
 	color: #800000;
 	padding-left: 30px;
 }
-h3 {
+body main h3 { /* "h3" is in "main," which is in "body" */
 	font-size: 130%;
 	font-style: italic;
 	padding-left: 30px;
@@ -39,7 +39,7 @@ a:hover { /* italicizes links when cursor hovers over it*/
 footer p {
 	text-align: center;
 }
-em.shadow {
+body header h3 em.shadow {
 	text-shadow: #800000;
 }
 /* the styles for the footer */
